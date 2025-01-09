@@ -20,7 +20,7 @@ public class FactoryPatternTest {
 		
 		IBike bike4 = BikeFactory.orderBike("bullet");
 		bike4.drive();
-		System.out.println("==========================");
+		System.out.println("==============================");
 		IBike bike5 = BikeFactory.orderBike("turrer");
 		bike5.drive();	
 	}
