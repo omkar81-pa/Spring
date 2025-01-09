@@ -8,15 +8,15 @@ public class FactoryPatternTest {
 	public static void main(String[] args) {
 		IBike bike1 = BikeFactory.orderBike("standerd");
 		bike1.drive();
-		System.out.println("==========================");
+		System.out.println("============================");
 		
 		IBike bike2 = BikeFactory.orderBike("sports");
 		bike2.drive();
-		System.out.println("==========================");
+		System.out.println("=============================");
 		
 		IBike bike3 = BikeFactory.orderBike("electric");
 		bike3.drive();
-		System.out.println("==========================");
+		System.out.println("==============================");
 		
 		IBike bike4 = BikeFactory.orderBike("bullet");
 		bike4.drive();
